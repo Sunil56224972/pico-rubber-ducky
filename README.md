@@ -27,19 +27,19 @@ Install and have your USB Rubber Ducky working in less than 5 minutes.
 
 If using a Pico board:
 
-Copy the adafruit-circuitpython-raspberry_pi_pico-en_US-9.2.1.uf2 file to the root of the Pico (RPI-RP2). The device will reboot and after a second or so, it will reconnect as CIRCUITPY.
+Copy the adafruit-circuitpython-raspberry_pi_pico-en_US-10.0.3.uf2 file to the root of the Pico (RPI-RP2). The device will reboot and after a second or so, it will reconnect as CIRCUITPY.
 
 If using a Pico W board:
 
-Copy the adafruit-circuitpython-raspberry_pi_pico_w-en_US-9.2.1.uf2 file to the root of the Pico (RPI-RP2). The device will reboot and after a second or so, it will reconnect as CIRCUITPY.  
+Copy the adafruit-circuitpython-raspberry_pi_pico_w-en_US-10.0.3.uf2 file to the root of the Pico (RPI-RP2). The device will reboot and after a second or so, it will reconnect as CIRCUITPY.  
 
 If using a Pico 2 board:
 
-Copy the adafruit-circuitpython-raspberry_pi_pico2-en_US-9.2.1.uf2 file to the root of the Pico (RPI-RP2). The device will reboot and after a second or so, it will reconnect as CIRCUITPY.
+Copy the adafruit-circuitpython-raspberry_pi_pico2-en_US-10.0.3.uf2 file to the root of the Pico (RPI-RP2). The device will reboot and after a second or so, it will reconnect as CIRCUITPY.
 
 If using a Pico 2W board:
 
-Copy the adafruit-circuitpython-raspberry_pi_pico2_w-en_US-9.2.1.uf2 file to the root of the Pico (RPI-RP2). The device will reboot and after a second or so, it will reconnect as CIRCUITPY.
+Copy the adafruit-circuitpython-raspberry_pi_pico2_w-en_US-10.0.3.uf2 file to the root of the Pico (RPI-RP2). The device will reboot and after a second or so, it will reconnect as CIRCUITPY.
 
 4. Copy the lib folder to the root of the CIRCUITPY
 
@@ -84,16 +84,16 @@ Install and have your USB Rubber Ducky working in less than 5 minutes.
 
 1. Clone the repo to get a local copy of the files. `git clone https://github.com/dbisu/pico-ducky.git`
 
-2. Download [CircuitPython for the Raspberry Pi Pico](https://circuitpython.org/board/raspberry_pi_pico/). *Updated to 9.2.1  
-   Download [CircuitPython for the Raspberry Pi Pico W](https://circuitpython.org/board/raspberry_pi_pico_w/). *Updated to 9.2.1
-   Download [CircuitPython for the Raspberry Pi Pico 2](https://circuitpython.org/board/raspberry_pi_pico2/). *Updated to 9.2.1  
-   Download [CircuitPython for the Raspberry Pi Pico 2W](https://circuitpython.org/board/raspberry_pi_pico2_w/). *Updated to 9.2.1
+2. Download [CircuitPython for the Raspberry Pi Pico](https://circuitpython.org/board/raspberry_pi_pico/). *Updated to 10.0.3  
+   Download [CircuitPython for the Raspberry Pi Pico W](https://circuitpython.org/board/raspberry_pi_pico_w/). *Updated to 10.0.3  
+   Download [CircuitPython for the Raspberry Pi Pico 2](https://circuitpython.org/board/raspberry_pi_pico2/). *Updated to 10.0.3  
+   Download [CircuitPython for the Raspberry Pi Pico 2W](https://circuitpython.org/board/raspberry_pi_pico2_w/). *Updated to 10.0.3  
 
 3. Plug the device into a USB port while holding the boot button. It will show up as a removable media device named `RPI-RP2`.
 
 4. Copy the downloaded `.uf2` file to the root of the Pico (`RPI-RP2`). The device will reboot and after a second or so, it will reconnect as `CIRCUITPY`.
 
-5. Download `adafruit-circuitpython-bundle-9.x-mpy-YYYYMMDD.zip` [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest) and extract it outside the device.
+5. Download `adafruit-circuitpython-bundle-10.x-mpy-YYYYMMDD.zip` [here](https://github.com/adafruit/Adafruit_CircuitPython_Bundle/releases/latest) and extract it outside the device.
 
 6. Navigate to `lib` in the recently extracted folder and copy `adafruit_hid` to the `lib` folder on your Raspberry Pi Pico.
 
@@ -105,7 +105,7 @@ Install and have your USB Rubber Ducky working in less than 5 minutes.
 
 10. Copy `boot.py` from your clone to the root of your Pico.
 
-11. Copy `duckyinpython.py`, `code.py`, `webapp.py`, `wsgiserver.py` to the root folder of the Pico.
+11. Copy `duckyinpython.py`, `code.py`, `pins.py`, `webapp.py`, `wsgiserver.py` to the root folder of the Pico.
 
 12. *For Pico W Only* Create the file `secrets.py` in the root of the Pico W. This contains the AP name and password to be created by the Pico W.  
 `secrets = { 'ssid' : "BadAPName", 'password' : "badpassword" }`
@@ -248,7 +248,7 @@ You can find the tool [here](https://github.com/ryo-yamada/PicoDuckyBuilder)
 
 ### Docs
 
-[CircuitPython](https://circuitpython.readthedocs.io/en/6.3.x/README.html)
+[CircuitPython](https://docs.circuitpython.org/en/latest/README.html)
 
 [CircuitPython HID](https://learn.adafruit.com/circuitpython-essentials/circuitpython-hid-keyboard-and-mouse)
 
@@ -266,4 +266,3 @@ You can find the tool [here](https://github.com/ryo-yamada/PicoDuckyBuilder)
 ## Related Projects
 
 [Defcon31-ducky](https://github.com/iot-pwn/defcon31-ducky)  
-There are still a few of these available to purchase, US only.
